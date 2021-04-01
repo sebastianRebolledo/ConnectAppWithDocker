@@ -2,7 +2,7 @@ version: "3.8"
 #servicios de la aplicacion
 services:
   app:
-    image: applicacion 
+    image: sereme98/applicacion 
     environment:
       MONGO_URL: "mongodb://db:27017/test"
     depends_on:
